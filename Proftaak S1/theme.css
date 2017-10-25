@@ -1,0 +1,73 @@
+
+body {
+
+background-color: blue;
+
+
+
+
+
+}
+
+h1{
+text-align: center;
+color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block; /* de link naar een andere pagina verschijnt in een block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px; /* de grote van een block*/
+    text-decoration: none;
+
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+section
+{
+    float:left
+}
+h3{
+
+  color: white; /* de kleur van de tekst */ }
+p
+{
+  color: white;
+}
+
+    .floating-horizon {
+    float: left;
+    width: 350px; /* de wijdheid van een Div class*/
+    height: 75px;/* de hoogte van een Div class*/
+    margin: 10px;
+    border: 0px solid #73AD21;
+}
+    .floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 0px solid #73AD21;  
+}
+
+
+ 
